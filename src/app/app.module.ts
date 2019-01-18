@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SapoMapasAPIComponent } from './sapo-mapas-api/sapo-mapas-api.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SapoMapasAPIComponent
+    SapoMapasAPIComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
