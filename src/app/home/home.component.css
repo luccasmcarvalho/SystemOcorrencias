@@ -7,3 +7,67 @@
     font-family: cursive;
     font-size: 30px;
 }
+
+.largeButton1 {
+    position: absolute;
+    width: 209px;
+    height: 35px;
+    left: 540px;
+    top: 378px;
+}
+
+.largeButton2 {
+    position: absolute;
+    width: 209px;
+    height: 35px;
+    left: 540px;
+    top: 423px;
+}
+
+.txtTitle1{
+    position: absolute;
+    width: 724px;
+    height: 43px;
+    left: 283px;
+    top: 96px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 36px;
+
+    color: #cfc1c1;
+}
+
+.txtSubTitle1{
+    position: absolute;
+    width: 833px;
+    height: 22px;
+    left: 228px;
+    top: 163px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 18px;
+
+    color: #000000;
+}
+
+.btLogin{
+    position: absolute;
+    width: 89px;
+    height: 35px;
+    left: 540px;
+    top: 474px;
+}
+
+.btCadastro{
+    position: absolute;
+    width: 89px;
+    height: 35px;
+    left: 660px;
+    top: 474px;
+}
