@@ -1,0 +1,39 @@
+.input1{
+    position: absolute;
+    width: 209px;
+    height: 35px;
+    left: 535px;
+    top: 205px;
+}
+
+.input2{
+    position: absolute;
+    width: 209px;
+    height: 35px;
+    left: 535px;
+    top: 259px;
+}
+
+.input3{
+    position: absolute;
+    width: 209px;
+    height: 35px;
+    left: 535px;
+    top: 313px;
+}
+
+.input4{
+    position: absolute;
+    width: 209px;
+    height: 35px;
+    left: 535px;
+    top: 367px;
+}
+
+.btSalvar{
+    position: absolute;
+    width: 89px;
+    height: 35px;
+    left: 656px;
+    top: 450px;
+}

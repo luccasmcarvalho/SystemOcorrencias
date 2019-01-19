@@ -8,13 +8,15 @@ import { HomeComponent } from './home/home.component';
 import { RouterModule } from '@angular/router';
 import { routes } from './app.router';
 import { CadastroUsuarioComponent } from './cadastro-usuario/cadastro-usuario.component';
+import { CadastroOcorrenciaComponent } from './cadastro-ocorrencia/cadastro-ocorrencia.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SapoMapasAPIComponent,
     HomeComponent,
-    CadastroUsuarioComponent
+    CadastroUsuarioComponent,
+    CadastroOcorrenciaComponent
   ],
   imports: [
     BrowserModule,

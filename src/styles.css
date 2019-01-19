@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+.btCadastrarOcorrencia{
+    position: absolute;
+    width: 155px;
+    height: 37px;
+    left: 57px;
+    top: 175px;
+}
+
+.btVerMapa{
+    position: absolute;
+    width: 155px;
+    height: 37px;
+    left: 57px;
+    top: 232px;
+}
