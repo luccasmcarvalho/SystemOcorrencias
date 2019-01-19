@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<title>Map Simple Event</title>
+		<script type="text/javascript" src="http://js.sapo.pt/Bundles/SAPOMapsAPI-1.0.js"></script>
+		<script type='text/javascript'>
+
+			window.onload = init;
+			
+
+			function init() { 
+				
+				const map = new SAPO.Maps.Map('mapDiv');
+				markerslayer = new SAPO.Maps.Markers('Array');
+				map.addMarkers(markerslayer);
+				const marker = new SAPO.Maps.Marker(new OpenLayers.LonLat(-35.23966134,-5.75483861));
+				markerslayer.addMarker(marker)
+				map.addOverlay(marker);
+				map.zoomTo(5);
+				marker.registerEvent('click', this, NewMarker);
+			}
+			//Don't Working yet
+			function NewMarker(marker){
+				lonlat = map.getLonLatFromContainerPixel(evt.xy);
+				long= lonlat.lon;
+				lati= lonlat.lat;
+				marker = new SAPO.Maps.Marker(new OpenLayers.LonLat(long,lati));
+				markerslayer.addMarker(marker)
+				map.addOverlay(marker);
+
+			}
+		</script>
+	</head>
+	<body onload='init();'>
+		<div id='mapDiv' style='width:650px; height:320px;'></div>
+	</body>
+</html>		
+
+
+
+
